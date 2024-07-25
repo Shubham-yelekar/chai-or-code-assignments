@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background-color: #3F72AF;
+  padding: 1rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 8rem;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display:flex ;
+  flex-direction: column;
+}
+
+.otp-wrapper {
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem 4.8rem 4.8rem;
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+}
+
+.otp-wrapper h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -0.175rem;
+  margin-bottom: 1.8rem;
+}
+
+.otp-wrapper p {
+  color: #BFBFBF;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.14rem;
+  text-align: center;
+}
+
+.chai-code-logo {
+  position: absolute;
+  z-index: 10;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 1.8rem;
+  width: 150px ;
+  height: 150px;
+  background-color: red;
+  background: url(../public/chaicode-logo.png);
+  background-position: center;
+  background-size: cover;
+}
